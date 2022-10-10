@@ -1,8 +1,8 @@
 package ru.twozeros.conditionalbeanspringboot.configuration;
 
-public class DevProfile implements SystemProfile{
+public class ProdProfile implements SystemProfile{
     @Override
     public String getProfile() {
-        return "current profile is dev";
+        return "current profile is prod";
     }
 }

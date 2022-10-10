@@ -1,4 +1,5 @@
-package ru.twozeros.conditionalbeanspringboot;
+package ru.twozeros.conditionalbeanspringboot.configuration;
 
 public interface SystemProfile {
+    String getProfile();
 }
